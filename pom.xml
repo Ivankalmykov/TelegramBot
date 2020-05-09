@@ -13,6 +13,7 @@
         <java.version>1.8</java.version>
         <maven.deploy.skip>true</maven.deploy.skip>
         <dockerfile-maven-plugin.version>1.4.7</dockerfile-maven-plugin.version>
+        <maven.deploy.skip>true</maven.deploy.skip>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
@@ -31,6 +32,7 @@
     <build>
         <finalName>telegrambot</finalName>
         <plugins>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
