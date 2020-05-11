@@ -97,6 +97,7 @@ public class MyBot extends TelegramLongPollingBot {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
+                    break;
                 case "/info":
                     try {
                         sendMsg(message, getStatist());
